@@ -1,7 +1,7 @@
 const fs = require("fs");
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 const mongoose = require("mongoose");
 
 const app = express();
